@@ -1,0 +1,28 @@
+# compose syntax version.
+version: "3.6"
+
+# OBS: Não está funcionando, falta implementar rede Calico
+
+# services declaration.
+services:
+  # iperf3 Server
+  server:
+    container_name: local_baseline_server
+    build: ../images/Baseline
+    image: mentz/tcc:baseline
+    entrypoint: sh -c "iperf3 -s1 >> /dev/null"
+
+  # iperf3 Client
+  client:
+    container_name: local_baseline_client
+    build: ../images/Baseline
+    image: mentz/tcc:baseline
+    entrypoint: sh -c "iperf3 -c server -t 120 -V -J > /root/logs/log.json"
+    depends_on:
+      - server
+    volumes:
+      - ./log/:/root/logs
+
+networks:
+  default:
+    driver: calico

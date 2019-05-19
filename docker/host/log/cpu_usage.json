@@ -1,0 +1,857 @@
+{"sysstat": {
+	"hosts": [
+		{
+			"nodename": "manjaro-lucas-pc",
+			"sysname": "Linux",
+			"release": "5.0.9-2-MANJARO",
+			"machine": "x86_64",
+			"number-of-cpus": 16,
+			"file-date": "2019-05-18",
+			"file-utc-time": "00:51:06",
+			"statistics": [
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:07", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 5.47, "nice": 0.00, "sys": 1.57, "iowait": 1.82, "steal": 0.00, "irq": 0.06, "soft": 0.13, "guest": 0.00, "gnice": 0.00, "idle": 90.95}
+					],
+					"io": {"tps": 726.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 665.00, "bwrtn": 10648.00}, "io-discard": {"dtps": 61.00, "bdscd": 1656.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:08", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 1.93, "nice": 0.00, "sys": 8.29, "iowait": 0.12, "steal": 0.00, "irq": 0.06, "soft": 1.00, "guest": 0.00, "gnice": 0.00, "idle": 88.60}
+					],
+					"io": {"tps": 15.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 12.00, "bwrtn": 400.00}, "io-discard": {"dtps": 3.00, "bdscd": 136.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:09", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.57, "nice": 0.00, "sys": 9.63, "iowait": 0.13, "steal": 0.00, "irq": 0.06, "soft": 1.38, "guest": 0.00, "gnice": 0.00, "idle": 88.23}
+					],
+					"io": {"tps": 26.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 26.00, "bwrtn": 144.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:10", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.69, "nice": 0.00, "sys": 10.12, "iowait": 0.13, "steal": 0.00, "irq": 0.06, "soft": 1.45, "guest": 0.00, "gnice": 0.00, "idle": 87.55}
+					],
+					"io": {"tps": 35.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 33.00, "bwrtn": 1232.00}, "io-discard": {"dtps": 2.00, "bdscd": 336.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:11", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.69, "nice": 0.00, "sys": 9.39, "iowait": 0.06, "steal": 0.00, "irq": 0.06, "soft": 1.32, "guest": 0.00, "gnice": 0.00, "idle": 88.47}
+					],
+					"io": {"tps": 21.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 21.00, "bwrtn": 720.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:12", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.76, "nice": 0.00, "sys": 9.84, "iowait": 0.13, "steal": 0.00, "irq": 0.19, "soft": 1.26, "guest": 0.00, "gnice": 0.00, "idle": 87.83}
+					],
+					"io": {"tps": 20.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 17.00, "bwrtn": 1560.00}, "io-discard": {"dtps": 3.00, "bdscd": 600.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:13", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.75, "nice": 0.00, "sys": 9.82, "iowait": 0.06, "steal": 0.00, "irq": 0.00, "soft": 1.50, "guest": 0.00, "gnice": 0.00, "idle": 87.87}
+					],
+					"io": {"tps": 25.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 24.00, "bwrtn": 488.00}, "io-discard": {"dtps": 1.00, "bdscd": 1088.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:14", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.38, "nice": 0.00, "sys": 9.36, "iowait": 0.00, "steal": 0.00, "irq": 0.06, "soft": 1.44, "guest": 0.00, "gnice": 0.00, "idle": 88.76}
+					],
+					"io": {"tps": 0.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 0.00, "bwrtn": 0.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:15", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.44, "nice": 0.00, "sys": 9.17, "iowait": 0.13, "steal": 0.00, "irq": 0.13, "soft": 1.39, "guest": 0.00, "gnice": 0.00, "idle": 88.75}
+					],
+					"io": {"tps": 17.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 17.00, "bwrtn": 96.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:16", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.44, "nice": 0.00, "sys": 9.30, "iowait": 0.00, "steal": 0.00, "irq": 0.13, "soft": 1.45, "guest": 0.00, "gnice": 0.00, "idle": 88.69}
+					],
+					"io": {"tps": 0.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 0.00, "bwrtn": 0.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:17", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.69, "nice": 0.00, "sys": 9.52, "iowait": 0.19, "steal": 0.00, "irq": 0.19, "soft": 1.25, "guest": 0.00, "gnice": 0.00, "idle": 88.16}
+					],
+					"io": {"tps": 18.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 18.00, "bwrtn": 104.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:18", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.69, "nice": 0.00, "sys": 9.61, "iowait": 0.00, "steal": 0.00, "irq": 0.00, "soft": 1.38, "guest": 0.00, "gnice": 0.00, "idle": 88.32}
+					],
+					"io": {"tps": 29.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 26.00, "bwrtn": 424.00}, "io-discard": {"dtps": 3.00, "bdscd": 1008.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:19", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.87, "nice": 0.00, "sys": 9.98, "iowait": 0.06, "steal": 0.00, "irq": 0.06, "soft": 1.43, "guest": 0.00, "gnice": 0.00, "idle": 87.59}
+					],
+					"io": {"tps": 26.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 26.00, "bwrtn": 208.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:20", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.76, "nice": 0.00, "sys": 9.97, "iowait": 0.38, "steal": 0.00, "irq": 0.06, "soft": 1.45, "guest": 0.00, "gnice": 0.00, "idle": 87.38}
+					],
+					"io": {"tps": 48.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 45.00, "bwrtn": 1232.00}, "io-discard": {"dtps": 3.00, "bdscd": 368.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:21", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 1.08, "nice": 0.00, "sys": 9.30, "iowait": 0.44, "steal": 0.00, "irq": 0.00, "soft": 1.27, "guest": 0.00, "gnice": 0.00, "idle": 87.92}
+					],
+					"io": {"tps": 48.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 41.00, "bwrtn": 832.00}, "io-discard": {"dtps": 7.00, "bdscd": 96.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:22", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.32, "nice": 0.00, "sys": 9.54, "iowait": 0.06, "steal": 0.00, "irq": 0.06, "soft": 1.45, "guest": 0.00, "gnice": 0.00, "idle": 88.57}
+					],
+					"io": {"tps": 11.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 11.00, "bwrtn": 56.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:23", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.63, "nice": 0.00, "sys": 9.55, "iowait": 0.19, "steal": 0.00, "irq": 0.06, "soft": 1.32, "guest": 0.00, "gnice": 0.00, "idle": 88.25}
+					],
+					"io": {"tps": 34.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 32.00, "bwrtn": 1696.00}, "io-discard": {"dtps": 2.00, "bdscd": 128.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:24", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.38, "nice": 0.00, "sys": 9.75, "iowait": 0.00, "steal": 0.00, "irq": 0.06, "soft": 1.32, "guest": 0.00, "gnice": 0.00, "idle": 88.49}
+					],
+					"io": {"tps": 207.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 207.00, "bwrtn": 2800.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:25", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.63, "nice": 0.00, "sys": 9.38, "iowait": 0.13, "steal": 0.00, "irq": 0.06, "soft": 1.45, "guest": 0.00, "gnice": 0.00, "idle": 88.36}
+					],
+					"io": {"tps": 19.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 18.00, "bwrtn": 312.00}, "io-discard": {"dtps": 1.00, "bdscd": 1088.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:26", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.57, "nice": 0.00, "sys": 9.37, "iowait": 0.06, "steal": 0.00, "irq": 0.06, "soft": 1.32, "guest": 0.00, "gnice": 0.00, "idle": 88.62}
+					],
+					"io": {"tps": 5.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 4.00, "bwrtn": 672.00}, "io-discard": {"dtps": 1.00, "bdscd": 8.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:27", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.57, "nice": 0.00, "sys": 9.27, "iowait": 0.06, "steal": 0.00, "irq": 0.06, "soft": 1.45, "guest": 0.00, "gnice": 0.00, "idle": 88.58}
+					],
+					"io": {"tps": 17.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 17.00, "bwrtn": 112.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:28", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.32, "nice": 0.00, "sys": 9.40, "iowait": 0.13, "steal": 0.00, "irq": 0.06, "soft": 1.14, "guest": 0.00, "gnice": 0.00, "idle": 88.96}
+					],
+					"io": {"tps": 26.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 24.00, "bwrtn": 296.00}, "io-discard": {"dtps": 2.00, "bdscd": 560.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:29", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.69, "nice": 0.00, "sys": 9.02, "iowait": 0.13, "steal": 0.00, "irq": 0.19, "soft": 1.45, "guest": 0.00, "gnice": 0.00, "idle": 88.52}
+					],
+					"io": {"tps": 27.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 27.00, "bwrtn": 216.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:30", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.44, "nice": 0.00, "sys": 9.62, "iowait": 0.06, "steal": 0.00, "irq": 0.13, "soft": 1.32, "guest": 0.00, "gnice": 0.00, "idle": 88.43}
+					],
+					"io": {"tps": 16.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 15.00, "bwrtn": 888.00}, "io-discard": {"dtps": 1.00, "bdscd": 328.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:31", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.94, "nice": 0.00, "sys": 9.87, "iowait": 0.25, "steal": 0.00, "irq": 0.06, "soft": 1.38, "guest": 0.00, "gnice": 0.00, "idle": 87.49}
+					],
+					"io": {"tps": 35.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 35.00, "bwrtn": 376.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:32", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.50, "nice": 0.00, "sys": 9.62, "iowait": 0.06, "steal": 0.00, "irq": 0.06, "soft": 1.45, "guest": 0.00, "gnice": 0.00, "idle": 88.31}
+					],
+					"io": {"tps": 4.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 4.00, "bwrtn": 16.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:33", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.88, "nice": 0.00, "sys": 9.69, "iowait": 0.06, "steal": 0.00, "irq": 0.13, "soft": 1.26, "guest": 0.00, "gnice": 0.00, "idle": 87.98}
+					],
+					"io": {"tps": 24.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 24.00, "bwrtn": 144.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:34", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.50, "nice": 0.00, "sys": 9.01, "iowait": 0.00, "steal": 0.00, "irq": 0.13, "soft": 1.45, "guest": 0.00, "gnice": 0.00, "idle": 88.92}
+					],
+					"io": {"tps": 0.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 0.00, "bwrtn": 0.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:35", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.50, "nice": 0.00, "sys": 9.51, "iowait": 0.19, "steal": 0.00, "irq": 0.00, "soft": 1.45, "guest": 0.00, "gnice": 0.00, "idle": 88.35}
+					],
+					"io": {"tps": 25.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 24.00, "bwrtn": 1608.00}, "io-discard": {"dtps": 1.00, "bdscd": 88.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:36", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.50, "nice": 0.00, "sys": 9.19, "iowait": 0.00, "steal": 0.00, "irq": 0.06, "soft": 1.51, "guest": 0.00, "gnice": 0.00, "idle": 88.74}
+					],
+					"io": {"tps": 0.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 0.00, "bwrtn": 0.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:37", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.38, "nice": 0.00, "sys": 9.28, "iowait": 0.19, "steal": 0.00, "irq": 0.13, "soft": 1.20, "guest": 0.00, "gnice": 0.00, "idle": 88.83}
+					],
+					"io": {"tps": 21.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 20.00, "bwrtn": 720.00}, "io-discard": {"dtps": 1.00, "bdscd": 1088.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:38", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.50, "nice": 0.00, "sys": 9.19, "iowait": 0.06, "steal": 0.00, "irq": 0.00, "soft": 1.38, "guest": 0.00, "gnice": 0.00, "idle": 88.86}
+					],
+					"io": {"tps": 6.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 6.00, "bwrtn": 24.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:39", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 1.00, "nice": 0.00, "sys": 9.34, "iowait": 0.25, "steal": 0.00, "irq": 0.19, "soft": 1.38, "guest": 0.00, "gnice": 0.00, "idle": 87.84}
+					],
+					"io": {"tps": 158.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 156.00, "bwrtn": 2304.00}, "io-discard": {"dtps": 2.00, "bdscd": 560.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:40", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.32, "nice": 0.00, "sys": 9.29, "iowait": 0.19, "steal": 0.00, "irq": 0.00, "soft": 1.33, "guest": 0.00, "gnice": 0.00, "idle": 88.87}
+					],
+					"io": {"tps": 16.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 15.00, "bwrtn": 888.00}, "io-discard": {"dtps": 1.00, "bdscd": 328.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:41", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.88, "nice": 0.00, "sys": 10.44, "iowait": 0.19, "steal": 0.00, "irq": 0.06, "soft": 1.44, "guest": 0.00, "gnice": 0.00, "idle": 86.99}
+					],
+					"io": {"tps": 38.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 37.00, "bwrtn": 464.00}, "io-discard": {"dtps": 1.00, "bdscd": 8.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:42", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.82, "nice": 0.00, "sys": 9.97, "iowait": 0.06, "steal": 0.00, "irq": 0.06, "soft": 1.25, "guest": 0.00, "gnice": 0.00, "idle": 87.84}
+					],
+					"io": {"tps": 10.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 10.00, "bwrtn": 56.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:43", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.57, "nice": 0.00, "sys": 9.20, "iowait": 0.13, "steal": 0.00, "irq": 0.00, "soft": 1.51, "guest": 0.00, "gnice": 0.00, "idle": 88.59}
+					],
+					"io": {"tps": 17.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 17.00, "bwrtn": 96.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:44", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.63, "nice": 0.00, "sys": 9.16, "iowait": 0.00, "steal": 0.00, "irq": 0.19, "soft": 1.32, "guest": 0.00, "gnice": 0.00, "idle": 88.71}
+					],
+					"io": {"tps": 0.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 0.00, "bwrtn": 0.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:45", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.76, "nice": 0.00, "sys": 9.20, "iowait": 0.06, "steal": 0.00, "irq": 0.13, "soft": 1.39, "guest": 0.00, "gnice": 0.00, "idle": 88.47}
+					],
+					"io": {"tps": 18.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 18.00, "bwrtn": 104.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:46", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.50, "nice": 0.00, "sys": 9.13, "iowait": 0.06, "steal": 0.00, "irq": 0.13, "soft": 1.39, "guest": 0.00, "gnice": 0.00, "idle": 88.79}
+					],
+					"io": {"tps": 9.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 8.00, "bwrtn": 1432.00}, "io-discard": {"dtps": 1.00, "bdscd": 88.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:47", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.44, "nice": 0.06, "sys": 9.54, "iowait": 0.13, "steal": 0.00, "irq": 0.06, "soft": 1.26, "guest": 0.00, "gnice": 0.00, "idle": 88.51}
+					],
+					"io": {"tps": 19.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 18.00, "bwrtn": 208.00}, "io-discard": {"dtps": 1.00, "bdscd": 1088.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:48", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.50, "nice": 0.00, "sys": 9.37, "iowait": 0.06, "steal": 0.00, "irq": 0.13, "soft": 1.32, "guest": 0.00, "gnice": 0.00, "idle": 88.62}
+					],
+					"io": {"tps": 6.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 6.00, "bwrtn": 24.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:49", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.57, "nice": 0.00, "sys": 9.74, "iowait": 0.06, "steal": 0.00, "irq": 0.06, "soft": 1.32, "guest": 0.00, "gnice": 0.00, "idle": 88.25}
+					],
+					"io": {"tps": 27.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 27.00, "bwrtn": 152.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:50", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.50, "nice": 0.00, "sys": 9.56, "iowait": 0.38, "steal": 0.00, "irq": 0.00, "soft": 1.38, "guest": 0.00, "gnice": 0.00, "idle": 88.18}
+					],
+					"io": {"tps": 51.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 47.00, "bwrtn": 1288.00}, "io-discard": {"dtps": 4.00, "bdscd": 424.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:51", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 1.50, "nice": 0.00, "sys": 10.47, "iowait": 0.31, "steal": 0.00, "irq": 0.19, "soft": 1.31, "guest": 0.00, "gnice": 0.00, "idle": 86.23}
+					],
+					"io": {"tps": 39.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 39.00, "bwrtn": 984.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:52", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.63, "nice": 0.00, "sys": 9.29, "iowait": 0.00, "steal": 0.00, "irq": 0.06, "soft": 1.52, "guest": 0.00, "gnice": 0.00, "idle": 88.50}
+					],
+					"io": {"tps": 10.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 10.00, "bwrtn": 56.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:53", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.63, "nice": 0.00, "sys": 9.94, "iowait": 0.00, "steal": 0.00, "irq": 0.13, "soft": 1.44, "guest": 0.00, "gnice": 0.00, "idle": 87.87}
+					],
+					"io": {"tps": 17.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 17.00, "bwrtn": 96.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:54", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.50, "nice": 0.00, "sys": 9.33, "iowait": 0.00, "steal": 0.00, "irq": 0.06, "soft": 1.32, "guest": 0.00, "gnice": 0.00, "idle": 88.78}
+					],
+					"io": {"tps": 17.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 17.00, "bwrtn": 112.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:55", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.63, "nice": 0.00, "sys": 9.19, "iowait": 0.00, "steal": 0.00, "irq": 0.00, "soft": 1.39, "guest": 0.00, "gnice": 0.00, "idle": 88.79}
+					],
+					"io": {"tps": 203.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 203.00, "bwrtn": 2856.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:56", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.50, "nice": 0.00, "sys": 9.37, "iowait": 0.06, "steal": 0.00, "irq": 0.06, "soft": 1.38, "guest": 0.00, "gnice": 0.00, "idle": 88.62}
+					],
+					"io": {"tps": 3.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 2.00, "bwrtn": 200.00}, "io-discard": {"dtps": 1.00, "bdscd": 504.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:57", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.50, "nice": 0.00, "sys": 9.45, "iowait": 0.06, "steal": 0.00, "irq": 0.19, "soft": 1.26, "guest": 0.00, "gnice": 0.00, "idle": 88.54}
+					],
+					"io": {"tps": 16.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 16.00, "bwrtn": 120.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:58", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.44, "nice": 0.00, "sys": 9.55, "iowait": 0.19, "steal": 0.00, "irq": 0.13, "soft": 1.32, "guest": 0.00, "gnice": 0.00, "idle": 88.38}
+					],
+					"io": {"tps": 13.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 12.00, "bwrtn": 1448.00}, "io-discard": {"dtps": 1.00, "bdscd": 88.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:51:59", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.69, "nice": 0.00, "sys": 9.63, "iowait": 0.13, "steal": 0.00, "irq": 0.06, "soft": 1.13, "guest": 0.00, "gnice": 0.00, "idle": 88.36}
+					],
+					"io": {"tps": 24.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 24.00, "bwrtn": 120.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:00", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.57, "nice": 0.06, "sys": 9.10, "iowait": 0.13, "steal": 0.00, "irq": 0.06, "soft": 1.45, "guest": 0.00, "gnice": 0.00, "idle": 88.63}
+					],
+					"io": {"tps": 17.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 15.00, "bwrtn": 936.00}, "io-discard": {"dtps": 2.00, "bdscd": 1416.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:01", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.63, "nice": 0.00, "sys": 9.32, "iowait": 0.06, "steal": 0.00, "irq": 0.06, "soft": 1.45, "guest": 0.00, "gnice": 0.00, "idle": 88.48}
+					],
+					"io": {"tps": 35.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 34.00, "bwrtn": 304.00}, "io-discard": {"dtps": 1.00, "bdscd": 56.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:02", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.82, "nice": 0.13, "sys": 10.28, "iowait": 0.19, "steal": 0.00, "irq": 0.13, "soft": 1.32, "guest": 0.00, "gnice": 0.00, "idle": 87.14}
+					],
+					"io": {"tps": 27.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 27.00, "bwrtn": 352.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:03", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.69, "nice": 0.00, "sys": 9.81, "iowait": 0.37, "steal": 0.00, "irq": 0.06, "soft": 1.37, "guest": 0.00, "gnice": 0.00, "idle": 87.70}
+					],
+					"io": {"tps": 47.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 45.00, "bwrtn": 1104.00}, "io-discard": {"dtps": 2.00, "bdscd": 592.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:04", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.44, "nice": 0.00, "sys": 9.87, "iowait": 0.00, "steal": 0.00, "irq": 0.06, "soft": 1.50, "guest": 0.00, "gnice": 0.00, "idle": 88.13}
+					],
+					"io": {"tps": 0.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 0.00, "bwrtn": 0.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:05", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.69, "nice": 0.00, "sys": 9.58, "iowait": 0.00, "steal": 0.00, "irq": 0.13, "soft": 1.32, "guest": 0.00, "gnice": 0.00, "idle": 88.28}
+					],
+					"io": {"tps": 19.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 19.00, "bwrtn": 200.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:06", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.63, "nice": 0.06, "sys": 9.56, "iowait": 0.00, "steal": 0.00, "irq": 0.06, "soft": 1.51, "guest": 0.00, "gnice": 0.00, "idle": 88.18}
+					],
+					"io": {"tps": 0.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 0.00, "bwrtn": 0.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:07", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.63, "nice": 0.00, "sys": 9.60, "iowait": 0.06, "steal": 0.00, "irq": 0.00, "soft": 1.38, "guest": 0.00, "gnice": 0.00, "idle": 88.33}
+					],
+					"io": {"tps": 17.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 17.00, "bwrtn": 168.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:08", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.50, "nice": 0.00, "sys": 9.63, "iowait": 0.00, "steal": 0.00, "irq": 0.06, "soft": 1.26, "guest": 0.00, "gnice": 0.00, "idle": 88.55}
+					],
+					"io": {"tps": 6.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 6.00, "bwrtn": 24.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:09", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.63, "nice": 0.00, "sys": 9.38, "iowait": 0.06, "steal": 0.00, "irq": 0.00, "soft": 1.51, "guest": 0.00, "gnice": 0.00, "idle": 88.41}
+					],
+					"io": {"tps": 31.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 30.00, "bwrtn": 1536.00}, "io-discard": {"dtps": 1.00, "bdscd": 88.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:10", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.38, "nice": 0.00, "sys": 9.45, "iowait": 0.06, "steal": 0.00, "irq": 0.06, "soft": 1.32, "guest": 0.00, "gnice": 0.00, "idle": 88.72}
+					],
+					"io": {"tps": 60.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 58.00, "bwrtn": 1792.00}, "io-discard": {"dtps": 2.00, "bdscd": 1416.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:11", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.69, "nice": 0.00, "sys": 9.46, "iowait": 0.06, "steal": 0.00, "irq": 0.06, "soft": 1.45, "guest": 0.00, "gnice": 0.00, "idle": 88.27}
+					],
+					"io": {"tps": 16.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 16.00, "bwrtn": 80.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:12", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 1.25, "nice": 0.06, "sys": 10.38, "iowait": 0.38, "steal": 0.00, "irq": 0.06, "soft": 1.44, "guest": 0.00, "gnice": 0.00, "idle": 86.44}
+					],
+					"io": {"tps": 47.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 46.00, "bwrtn": 544.00}, "io-discard": {"dtps": 1.00, "bdscd": 56.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:13", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.56, "nice": 0.00, "sys": 9.72, "iowait": 0.06, "steal": 0.00, "irq": 0.13, "soft": 1.44, "guest": 0.00, "gnice": 0.00, "idle": 88.08}
+					],
+					"io": {"tps": 17.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 17.00, "bwrtn": 152.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:14", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.31, "nice": 0.00, "sys": 9.56, "iowait": 0.00, "steal": 0.00, "irq": 0.00, "soft": 1.26, "guest": 0.00, "gnice": 0.00, "idle": 88.87}
+					],
+					"io": {"tps": 0.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 0.00, "bwrtn": 0.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:15", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.56, "nice": 0.00, "sys": 10.21, "iowait": 0.06, "steal": 0.00, "irq": 0.19, "soft": 1.43, "guest": 0.00, "gnice": 0.00, "idle": 87.55}
+					],
+					"io": {"tps": 15.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 15.00, "bwrtn": 80.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:16", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.69, "nice": 0.00, "sys": 9.44, "iowait": 0.00, "steal": 0.00, "irq": 0.06, "soft": 1.57, "guest": 0.00, "gnice": 0.00, "idle": 88.23}
+					],
+					"io": {"tps": 3.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 3.00, "bwrtn": 624.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:17", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.57, "nice": 0.00, "sys": 9.15, "iowait": 0.00, "steal": 0.00, "irq": 0.00, "soft": 1.33, "guest": 0.00, "gnice": 0.00, "idle": 88.95}
+					],
+					"io": {"tps": 15.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 15.00, "bwrtn": 80.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:18", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.50, "nice": 0.00, "sys": 9.38, "iowait": 0.00, "steal": 0.00, "irq": 0.06, "soft": 1.32, "guest": 0.00, "gnice": 0.00, "idle": 88.73}
+					],
+					"io": {"tps": 6.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 6.00, "bwrtn": 24.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:19", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.50, "nice": 0.00, "sys": 9.46, "iowait": 0.19, "steal": 0.00, "irq": 0.06, "soft": 1.32, "guest": 0.00, "gnice": 0.00, "idle": 88.45}
+					],
+					"io": {"tps": 22.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 21.00, "bwrtn": 264.00}, "io-discard": {"dtps": 1.00, "bdscd": 504.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:20", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.25, "nice": 0.00, "sys": 9.44, "iowait": 0.13, "steal": 0.00, "irq": 0.13, "soft": 1.45, "guest": 0.00, "gnice": 0.00, "idle": 88.61}
+					],
+					"io": {"tps": 16.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 15.00, "bwrtn": 880.00}, "io-discard": {"dtps": 1.00, "bdscd": 328.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:21", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.94, "nice": 0.00, "sys": 9.86, "iowait": 0.06, "steal": 0.00, "irq": 0.13, "soft": 1.44, "guest": 0.00, "gnice": 0.00, "idle": 87.57}
+					],
+					"io": {"tps": 34.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 31.00, "bwrtn": 1656.00}, "io-discard": {"dtps": 3.00, "bdscd": 128.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:22", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.88, "nice": 0.00, "sys": 10.33, "iowait": 0.13, "steal": 0.00, "irq": 0.00, "soft": 1.39, "guest": 0.00, "gnice": 0.00, "idle": 87.27}
+					],
+					"io": {"tps": 28.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 27.00, "bwrtn": 344.00}, "io-discard": {"dtps": 1.00, "bdscd": 1088.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:23", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.50, "nice": 0.00, "sys": 9.62, "iowait": 0.19, "steal": 0.00, "irq": 0.13, "soft": 1.32, "guest": 0.00, "gnice": 0.00, "idle": 88.25}
+					],
+					"io": {"tps": 42.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 41.00, "bwrtn": 488.00}, "io-discard": {"dtps": 1.00, "bdscd": 56.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:24", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.44, "nice": 0.00, "sys": 9.38, "iowait": 0.00, "steal": 0.00, "irq": 0.00, "soft": 1.39, "guest": 0.00, "gnice": 0.00, "idle": 88.79}
+					],
+					"io": {"tps": 0.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 0.00, "bwrtn": 0.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:25", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 2.63, "nice": 0.00, "sys": 10.09, "iowait": 0.19, "steal": 0.00, "irq": 0.13, "soft": 1.50, "guest": 0.00, "gnice": 0.00, "idle": 85.46}
+					],
+					"io": {"tps": 228.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 227.00, "bwrtn": 3624.00}, "io-discard": {"dtps": 1.00, "bdscd": 24.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:26", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 5.24, "nice": 0.00, "sys": 10.85, "iowait": 0.00, "steal": 0.00, "irq": 0.12, "soft": 1.31, "guest": 0.00, "gnice": 0.00, "idle": 82.47}
+					],
+					"io": {"tps": 0.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 0.00, "bwrtn": 0.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:27", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.63, "nice": 0.00, "sys": 9.62, "iowait": 0.06, "steal": 0.00, "irq": 0.00, "soft": 1.38, "guest": 0.00, "gnice": 0.00, "idle": 88.31}
+					],
+					"io": {"tps": 16.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 16.00, "bwrtn": 96.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:28", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.57, "nice": 0.00, "sys": 9.25, "iowait": 0.13, "steal": 0.00, "irq": 0.06, "soft": 1.38, "guest": 0.00, "gnice": 0.00, "idle": 88.61}
+					],
+					"io": {"tps": 10.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 10.00, "bwrtn": 736.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:29", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.88, "nice": 0.00, "sys": 9.63, "iowait": 0.13, "steal": 0.00, "irq": 0.00, "soft": 1.56, "guest": 0.00, "gnice": 0.00, "idle": 87.80}
+					],
+					"io": {"tps": 24.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 24.00, "bwrtn": 120.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:30", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.32, "nice": 0.00, "sys": 9.28, "iowait": 0.13, "steal": 0.00, "irq": 0.13, "soft": 1.21, "guest": 0.00, "gnice": 0.00, "idle": 88.95}
+					],
+					"io": {"tps": 17.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 15.00, "bwrtn": 960.00}, "io-discard": {"dtps": 2.00, "bdscd": 832.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:31", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.50, "nice": 0.00, "sys": 9.55, "iowait": 0.13, "steal": 0.00, "irq": 0.13, "soft": 1.26, "guest": 0.00, "gnice": 0.00, "idle": 88.44}
+					],
+					"io": {"tps": 17.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 17.00, "bwrtn": 144.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:32", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.88, "nice": 0.00, "sys": 10.62, "iowait": 0.25, "steal": 0.00, "irq": 0.06, "soft": 1.44, "guest": 0.00, "gnice": 0.00, "idle": 86.75}
+					],
+					"io": {"tps": 35.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 34.00, "bwrtn": 1696.00}, "io-discard": {"dtps": 1.00, "bdscd": 88.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:33", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.82, "nice": 0.00, "sys": 9.31, "iowait": 0.06, "steal": 0.00, "irq": 0.06, "soft": 1.45, "guest": 0.00, "gnice": 0.00, "idle": 88.29}
+					],
+					"io": {"tps": 17.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 17.00, "bwrtn": 88.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:34", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.32, "nice": 0.00, "sys": 9.36, "iowait": 0.06, "steal": 0.00, "irq": 0.06, "soft": 1.26, "guest": 0.00, "gnice": 0.00, "idle": 88.94}
+					],
+					"io": {"tps": 20.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 18.00, "bwrtn": 280.00}, "io-discard": {"dtps": 2.00, "bdscd": 1144.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:35", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.44, "nice": 0.00, "sys": 9.43, "iowait": 0.06, "steal": 0.00, "irq": 0.06, "soft": 1.51, "guest": 0.00, "gnice": 0.00, "idle": 88.50}
+					],
+					"io": {"tps": 17.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 17.00, "bwrtn": 152.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:36", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.63, "nice": 0.00, "sys": 9.59, "iowait": 0.00, "steal": 0.00, "irq": 0.13, "soft": 1.32, "guest": 0.00, "gnice": 0.00, "idle": 88.34}
+					],
+					"io": {"tps": 1.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 1.00, "bwrtn": 8.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:37", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.25, "nice": 0.00, "sys": 10.09, "iowait": 0.13, "steal": 0.00, "irq": 0.06, "soft": 1.38, "guest": 0.00, "gnice": 0.00, "idle": 88.09}
+					],
+					"io": {"tps": 16.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 16.00, "bwrtn": 80.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:38", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 1.26, "nice": 0.00, "sys": 9.48, "iowait": 0.06, "steal": 0.00, "irq": 0.06, "soft": 1.44, "guest": 0.00, "gnice": 0.00, "idle": 87.70}
+					],
+					"io": {"tps": 6.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 6.00, "bwrtn": 24.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:39", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.76, "nice": 0.00, "sys": 9.33, "iowait": 0.19, "steal": 0.00, "irq": 0.06, "soft": 1.32, "guest": 0.00, "gnice": 0.00, "idle": 88.34}
+					],
+					"io": {"tps": 35.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 33.00, "bwrtn": 408.00}, "io-discard": {"dtps": 2.00, "bdscd": 48.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:40", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.38, "nice": 0.00, "sys": 9.50, "iowait": 0.13, "steal": 0.00, "irq": 0.00, "soft": 1.38, "guest": 0.00, "gnice": 0.00, "idle": 88.62}
+					],
+					"io": {"tps": 16.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 15.00, "bwrtn": 848.00}, "io-discard": {"dtps": 1.00, "bdscd": 328.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:41", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.57, "nice": 0.00, "sys": 9.37, "iowait": 0.06, "steal": 0.00, "irq": 0.19, "soft": 1.38, "guest": 0.00, "gnice": 0.00, "idle": 88.43}
+					],
+					"io": {"tps": 59.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 59.00, "bwrtn": 1560.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:42", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 1.26, "nice": 0.00, "sys": 10.13, "iowait": 0.25, "steal": 0.00, "irq": 0.00, "soft": 1.38, "guest": 0.00, "gnice": 0.00, "idle": 86.97}
+					],
+					"io": {"tps": 29.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 28.00, "bwrtn": 984.00}, "io-discard": {"dtps": 1.00, "bdscd": 504.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:43", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.57, "nice": 0.00, "sys": 9.38, "iowait": 0.13, "steal": 0.00, "irq": 0.13, "soft": 1.45, "guest": 0.00, "gnice": 0.00, "idle": 88.36}
+					],
+					"io": {"tps": 17.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 17.00, "bwrtn": 88.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:44", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.44, "nice": 0.00, "sys": 9.59, "iowait": 0.13, "steal": 0.00, "irq": 0.06, "soft": 1.32, "guest": 0.00, "gnice": 0.00, "idle": 88.45}
+					],
+					"io": {"tps": 7.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 6.00, "bwrtn": 1440.00}, "io-discard": {"dtps": 1.00, "bdscd": 88.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:45", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.81, "nice": 0.00, "sys": 9.52, "iowait": 0.06, "steal": 0.00, "irq": 0.06, "soft": 1.44, "guest": 0.00, "gnice": 0.00, "idle": 88.10}
+					],
+					"io": {"tps": 37.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 35.00, "bwrtn": 480.00}, "io-discard": {"dtps": 2.00, "bdscd": 1144.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:46", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.38, "nice": 0.00, "sys": 9.46, "iowait": 0.00, "steal": 0.00, "irq": 0.06, "soft": 1.39, "guest": 0.00, "gnice": 0.00, "idle": 88.71}
+					],
+					"io": {"tps": 0.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 0.00, "bwrtn": 0.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:47", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.69, "nice": 0.00, "sys": 9.34, "iowait": 0.13, "steal": 0.00, "irq": 0.06, "soft": 1.50, "guest": 0.00, "gnice": 0.00, "idle": 88.28}
+					],
+					"io": {"tps": 16.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 16.00, "bwrtn": 160.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:48", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.50, "nice": 0.00, "sys": 9.85, "iowait": 0.00, "steal": 0.00, "irq": 0.06, "soft": 1.38, "guest": 0.00, "gnice": 0.00, "idle": 88.21}
+					],
+					"io": {"tps": 6.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 6.00, "bwrtn": 24.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:49", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.81, "nice": 0.00, "sys": 10.38, "iowait": 0.13, "steal": 0.00, "irq": 0.00, "soft": 1.25, "guest": 0.00, "gnice": 0.00, "idle": 87.43}
+					],
+					"io": {"tps": 20.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 20.00, "bwrtn": 128.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:50", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.50, "nice": 0.00, "sys": 9.26, "iowait": 0.13, "steal": 0.00, "irq": 0.13, "soft": 1.45, "guest": 0.00, "gnice": 0.00, "idle": 88.54}
+					],
+					"io": {"tps": 16.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 15.00, "bwrtn": 872.00}, "io-discard": {"dtps": 1.00, "bdscd": 328.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:51", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.82, "nice": 0.00, "sys": 9.40, "iowait": 0.13, "steal": 0.00, "irq": 0.13, "soft": 1.38, "guest": 0.00, "gnice": 0.00, "idle": 88.15}
+					],
+					"io": {"tps": 15.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 15.00, "bwrtn": 144.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:52", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.82, "nice": 0.00, "sys": 10.38, "iowait": 0.19, "steal": 0.00, "irq": 0.13, "soft": 1.38, "guest": 0.00, "gnice": 0.00, "idle": 87.11}
+					],
+					"io": {"tps": 41.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 40.00, "bwrtn": 432.00}, "io-discard": {"dtps": 1.00, "bdscd": 40.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:53", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.44, "nice": 0.00, "sys": 9.15, "iowait": 0.44, "steal": 0.00, "irq": 0.06, "soft": 1.45, "guest": 0.00, "gnice": 0.00, "idle": 88.45}
+					],
+					"io": {"tps": 29.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 23.00, "bwrtn": 1008.00}, "io-discard": {"dtps": 6.00, "bdscd": 48.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:54", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.82, "nice": 0.00, "sys": 9.73, "iowait": 0.00, "steal": 0.00, "irq": 0.00, "soft": 1.26, "guest": 0.00, "gnice": 0.00, "idle": 88.20}
+					],
+					"io": {"tps": 0.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 0.00, "bwrtn": 0.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:55", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.75, "nice": 0.00, "sys": 9.61, "iowait": 0.06, "steal": 0.00, "irq": 0.06, "soft": 1.50, "guest": 0.00, "gnice": 0.00, "idle": 88.01}
+					],
+					"io": {"tps": 15.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 15.00, "bwrtn": 88.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:56", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.57, "nice": 0.00, "sys": 9.27, "iowait": 0.19, "steal": 0.00, "irq": 0.06, "soft": 1.32, "guest": 0.00, "gnice": 0.00, "idle": 88.58}
+					],
+					"io": {"tps": 268.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 265.00, "bwrtn": 4688.00}, "io-discard": {"dtps": 3.00, "bdscd": 648.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:57", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.57, "nice": 0.00, "sys": 9.74, "iowait": 0.06, "steal": 0.00, "irq": 0.00, "soft": 1.51, "guest": 0.00, "gnice": 0.00, "idle": 88.13}
+					],
+					"io": {"tps": 16.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 15.00, "bwrtn": 232.00}, "io-discard": {"dtps": 1.00, "bdscd": 1088.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:58", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.50, "nice": 0.00, "sys": 9.38, "iowait": 0.06, "steal": 0.00, "irq": 0.06, "soft": 1.26, "guest": 0.00, "gnice": 0.00, "idle": 88.73}
+					],
+					"io": {"tps": 7.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 7.00, "bwrtn": 32.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:52:59", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.76, "nice": 0.00, "sys": 9.17, "iowait": 0.13, "steal": 0.00, "irq": 0.00, "soft": 1.39, "guest": 0.00, "gnice": 0.00, "idle": 88.55}
+					],
+					"io": {"tps": 20.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 20.00, "bwrtn": 120.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:53:00", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.38, "nice": 0.00, "sys": 9.85, "iowait": 0.19, "steal": 0.00, "irq": 0.19, "soft": 1.44, "guest": 0.00, "gnice": 0.00, "idle": 87.95}
+					],
+					"io": {"tps": 17.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 15.00, "bwrtn": 952.00}, "io-discard": {"dtps": 2.00, "bdscd": 336.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:53:01", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.63, "nice": 0.00, "sys": 9.57, "iowait": 0.19, "steal": 0.00, "irq": 0.06, "soft": 1.56, "guest": 0.00, "gnice": 0.00, "idle": 87.98}
+					],
+					"io": {"tps": 15.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 15.00, "bwrtn": 88.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:53:02", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 1.44, "nice": 0.00, "sys": 10.31, "iowait": 0.19, "steal": 0.00, "irq": 0.06, "soft": 1.31, "guest": 0.00, "gnice": 0.00, "idle": 86.69}
+					],
+					"io": {"tps": 28.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 28.00, "bwrtn": 328.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:53:03", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.44, "nice": 0.00, "sys": 9.62, "iowait": 0.06, "steal": 0.00, "irq": 0.31, "soft": 1.32, "guest": 0.00, "gnice": 0.00, "idle": 88.24}
+					],
+					"io": {"tps": 15.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 15.00, "bwrtn": 152.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:53:04", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.44, "nice": 0.00, "sys": 8.80, "iowait": 0.00, "steal": 0.00, "irq": 0.06, "soft": 1.33, "guest": 0.00, "gnice": 0.00, "idle": 89.36}
+					],
+					"io": {"tps": 0.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 0.00, "bwrtn": 0.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:53:05", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.94, "nice": 0.06, "sys": 9.34, "iowait": 0.06, "steal": 0.00, "irq": 0.19, "soft": 1.38, "guest": 0.00, "gnice": 0.00, "idle": 88.03}
+					],
+					"io": {"tps": 17.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 17.00, "bwrtn": 200.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				},
+				{
+					"timestamp": {"date": "2019-05-19", "time": "00:53:06", "utc": 1, "interval": 1},
+					"cpu-load": [
+						{"cpu": "all", "usr": 0.32, "nice": 0.06, "sys": 9.33, "iowait": 0.00, "steal": 0.00, "irq": 0.06, "soft": 1.39, "guest": 0.00, "gnice": 0.00, "idle": 88.85}
+					],
+					"io": {"tps": 0.00, "io-reads": {"rtps": 0.00, "bread": 0.00}, "io-writes": {"wtps": 0.00, "bwrtn": 0.00}, "io-discard": {"dtps": 0.00, "bdscd": 0.00}}
+				}
+			],
+			"restarts": [
+			]
+		}
+	]
+}}
