@@ -1,13 +1,20 @@
 # Script para avaliação de performance de redes de contêineres
 # by: Lucas Litter Mentz - 2019
 
+# Definições
+#SADC_PATH="/usr/lib64/sa/sadc"
+#UNPRIVILEGED_USER="lucas:lucas"
+SADC_PATH="/usr/lib/sysstat/sadc"
+UNPRIVILEGED_USER="ubuntu:ubuntu"
+
+
 user=`whoami`
 # TODO: Adicionar rotinas para redes Overlay, Contiv e Calico
-# networks="host overlay contiv calico"
-networks="host"
+# networks="host bridge overlay macvlan"
+networks="macvlan"
 
 # Checar dependências
-if ! test -e /usr/lib64/sa/sadc
+if ! test -e "$SADC_PATH"
 then
 	printf "\e[31This script requires sysstat utilities (sar, sadc, sadf) to be installed\e[0m\n"
 	exit 1
@@ -32,7 +39,7 @@ do
 
 	rm $network/log/saData.dat >> /dev/null 2>&1
 	printf "\e[37;4m#### Starting tests with %s network\e[0m\n" $network
-	/usr/lib64/sa/sadc -F 1 121 $network/log/saData.dat & >> /dev/null
+	$SADC_PATH -F 1 121 $network/log/saData.dat & >> /dev/null
 	SADCPID=$!
 	docker-compose --file $network/docker-compose.yml up
 
@@ -58,6 +65,6 @@ do
 
 	sadf -j -- -u ALL -b $network/log/saData.dat > $network/log/cpu_usage.json
 	sadf -g -- -u ALL -b $network/log/saData.dat > $network/log/cpu_usage.svg
-	chown -R lucas:lucas $network/log
+	chown -R $UNPRIVILEGED_USER $network/log
 	printf "\e[37;4m#### Done testing with %s network!\e[0m\n" $network
 done

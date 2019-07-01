@@ -1,7 +1,7 @@
 # compose syntax version.
-version: "3.6"
+version: "3.3"
 
-# OBS: Não está funcionando, falta implementar rede Contiv
+# OBS: Não está funcionando, falta implementar rede Calico
 
 # services declaration.
 services:
@@ -25,4 +25,9 @@ services:
 
 networks:
   default:
-    driver: contiv
+    driver: macvlan
+    driver_opts:
+      parent: ens3
+    ipam:
+     config:
+      - subnet: 100.98.26.0/24

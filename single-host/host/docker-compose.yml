@@ -1,7 +1,5 @@
 # compose syntax version.
-version: "3.6"
-
-# OBS: Não está funcionando, por algum motivo
+version: "3.3"
 
 # services declaration.
 services:
@@ -11,18 +9,19 @@ services:
     build: ../images/Baseline
     image: mentz/tcc:baseline
     entrypoint: sh -c "iperf3 -s1 >> /dev/null"
+    network_mode: host
 
   # iperf3 Client
   client:
     container_name: local_baseline_client
     build: ../images/Baseline
     image: mentz/tcc:baseline
-    entrypoint: sh -c "iperf3 -c server -t 120 -V -J > /root/logs/log.json"
+    entrypoint: sh -c "iperf3 -c localhost -t 120 -V -J > /root/logs/log.json"
+    network_mode: host
     depends_on:
       - server
     volumes:
       - ./log/:/root/logs
-
-networks:
-  default:
-    driver: overlay
+# networks:
+#   default:
+#     driver: bridge

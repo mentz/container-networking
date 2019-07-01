@@ -1,7 +1,7 @@
 # compose syntax version.
-version: "3.6"
+version: "3.3"
 
-# OBS: Não está funcionando, falta implementar rede Calico
+# OBS: Não está funcionando, por algum motivo
 
 # services declaration.
 services:
@@ -25,4 +25,4 @@ services:
 
 networks:
   default:
-    driver: calico
+    driver: overlay
