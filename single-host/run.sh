@@ -10,35 +10,34 @@ UNPRIVILEGED_USER="ubuntu:ubuntu"
 
 user=`whoami`
 # TODO: Adicionar rotinas para redes Overlay, Contiv e Calico
-# networks="host bridge overlay macvlan"
-networks="macvlan"
+networks="host bridge overlay macvlan"
 
 # Checar dependências
 if ! test -e "$SADC_PATH"
 then
-	printf "\e[31This script requires sysstat utilities (sar, sadc, sadf) to be installed\e[0m\n"
+	printf "\e[31;This script requires sysstat utilities (sar, sadc, sadf) to be installed\e[0m\n"
 	exit 1
 fi
 
 if test "$user" != "root"
 then
-	printf "\e[31This script requires super-user (root) permissions\e[0m\n"
+	printf "\e[31;This script requires super-user (root) permissions\e[0m\n"
 	exit 1
 fi
 
 # Tudo está OK, fazer o trabalho.
-printf "\e[37;4m#### Building docker images...\e[0m\n"
+printf "\e[37;4m;#### Building docker images...\e[0m\n"
 docker build images/Baseline/ -t mentz/tcc:baseline
-printf "\e[37;4m#### Done building docker images!\e[0m\n"
+printf "\e[37;4m;#### Done building docker images!\e[0m\n"
 
 for network in $networks
 do
-	printf "\e[37;4m#### Removing left-over docker instances\e[0m\n"
+	printf "\e[37;4m;#### Removing left-over docker instances\e[0m\n"
 	docker container rm -f `docker container ls -aq`
-	printf "\e[37;4m#### Done cleaning up docker instances!\e[0m\n"
+	printf "\e[37;4m;#### Done cleaning up docker instances!\e[0m\n"
 
 	rm $network/log/saData.dat >> /dev/null 2>&1
-	printf "\e[37;4m#### Starting tests with %s network\e[0m\n" $network
+	printf "\e[37;4m;#### Starting tests with %s network\e[0m\n" $network
 	$SADC_PATH -F 1 121 $network/log/saData.dat & >> /dev/null
 	SADCPID=$!
 	docker-compose --file $network/docker-compose.yml up
@@ -66,5 +65,5 @@ do
 	sadf -j -- -u ALL -b $network/log/saData.dat > $network/log/cpu_usage.json
 	sadf -g -- -u ALL -b $network/log/saData.dat > $network/log/cpu_usage.svg
 	chown -R $UNPRIVILEGED_USER $network/log
-	printf "\e[37;4m#### Done testing with %s network!\e[0m\n" $network
+	printf "\e[37;4m;#### Done testing with %s network!\e[0m;\n" $network
 done

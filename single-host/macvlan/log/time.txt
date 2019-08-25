@@ -1,6 +1,0 @@
-Created:  2019-06-30T21:53:01.071308652Z
-Started:  2019-06-30T21:53:04.111174219Z
-Finished: 2019-06-30T21:55:04.317576906Z
-Creation time:  3040 ms
-Execution time: 120206 ms
-Total time:     123246 ms
