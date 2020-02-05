@@ -10,7 +10,7 @@ services:
     image: mentz/tcc:baseline
     entrypoint: sh -c "iperf3 -s1 >> /dev/null"
     environment:
-      - "constraint:node==dockernet-1"
+      - "constraint:node==docker-host-1"
 
   # iperf3 Client
   client:
@@ -23,7 +23,7 @@ services:
     volumes:
       - ./log/:/root/logs
     environment:
-      - "constraint:node==dockernet-2"
+      - "constraint:node==docker-host-2"
 
 networks:
   default:
